@@ -129,6 +129,9 @@ button{
 .task__input_new-task{
   width: 318px;
 }
+.task_new-task{
+  border-bottom: none;
+}
 
 /* Completed */
 .form_completed .task__label {
