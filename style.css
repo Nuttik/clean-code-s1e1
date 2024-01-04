@@ -28,7 +28,8 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.task__input, .task__label {
+.task__input,
+.task__label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -40,10 +41,12 @@ ul {
   margin: 0;
   padding: 0px;
 }
-li, h3 {
+li,
+h3 {
   list-style: none;
 }
-input,button{
+input,
+button{
   outline: none;
 }
 .button {
@@ -58,6 +61,7 @@ input,button{
 .button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .form__title {
   color: #333;
@@ -97,7 +101,6 @@ input,button{
 .task > * {
   vertical-align: middle;
 }
-
 .task__checkbox {
   margin: 0 10px;
 }
