@@ -1,19 +1,37 @@
 <!DOCTYPE html>
+<html>
   <head>
     <title>Todo App</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
-    <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
+    />
+    <link rel="stylesheet" href="style.css" media="screen" charset="utf-8" />
   </head>
   <body class="page">
     <header class="header">
-      <img src="./eisenhower-matrix.jpg" alt="Eisenhower matrix" class="header__img">
-      <a href="https://goal-life.com/page/method/matrix-eisenhower" class="header__link">Want more details?</a>
+      <img
+        src="./eisenhower-matrix.jpg"
+        alt="Eisenhower matrix"
+        class="header__img"
+      />
+      <a
+        href="https://goal-life.com/page/method/matrix-eisenhower"
+        class="header__link"
+        >Want more details?</a
+      >
     </header>
     <main class="main">
       <section class="form">
-        <label for="new-task" class="form__title form__title_new-task">Add Item</label>
+        <label for="new-task" class="form__title form__title_new-task"
+          >Add Item</label
+        >
         <div class="task task_new-task">
-          <input id="new-task" class="task__input task__input_new-task" type="text">
+          <input
+            id="new-task"
+            class="task__input task__input_new-task"
+            type="text"
+          />
           <button class="button button_add">Add</button>
         </div>
       </section>
@@ -21,21 +39,29 @@
         <h3 class="form__title">Todo</h3>
         <ul id="incompleteTasks" class="form__list-tasks">
           <li class="task">
-            <input type="checkbox" class="task__checkbox">
+            <input type="checkbox" class="task__checkbox" />
             <label class="task__label">Pay Bills</label>
-            <input type="text" class="task__input">
+            <input type="text" class="task__input" />
             <button class="button button_edit">Edit</button>
             <button class="button button_delete">
-              <img src="./remove.svg" alt="button delete task" class="button__img">
+              <img
+                src="./remove.svg"
+                alt="button delete task"
+                class="button__img"
+              />
             </button>
           </li>
           <li class="task task_editMode">
-            <input type="checkbox" class="task__checkbox">
+            <input type="checkbox" class="task__checkbox" />
             <label class="task__label">Go Shopping</label>
-            <input type="text" value="Go Shopping" class="task__input">
+            <input type="text" value="Go Shopping" class="task__input" />
             <button class="button button_edit">Save</button>
             <button class="button button_delete">
-              <img src="./remove.svg" alt="button delete task" class="button__img">
+              <img
+                src="./remove.svg"
+                alt="button delete task"
+                class="button__img"
+              />
             </button>
           </li>
         </ul>
@@ -44,12 +70,16 @@
         <h3 class="form__title">Completed</h3>
         <ul id="completedTasks" class="form__list-tasks">
           <li class="task">
-            <input type="checkbox" class="task__checkbox" checked>
+            <input type="checkbox" class="task__checkbox" checked />
             <label class="task__label task__label">See the Doctor</label>
-            <input type="text" class="task__input">
+            <input type="text" class="task__input" />
             <button class="button button_edit">Edit</button>
             <button class="button button_delete">
-              <img src="./remove.svg" alt="button delete task" class="button__img">
+              <img
+                src="./remove.svg"
+                alt="button delete task"
+                class="button__img"
+              />
             </button>
           </li>
         </ul>
